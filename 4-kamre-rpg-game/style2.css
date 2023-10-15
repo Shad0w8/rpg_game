@@ -1,0 +1,70 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+#cover{
+  display:flex;
+  flex-direction: row;
+  margin: auto;
+  justify-content: center;
+  width: 300px;
+}
+
+#c1{
+  display: flexbox;
+  flex-direction:column;
+  margin:auto;
+  align-content:center;
+}
+
+body {
+  background-color: black;
+  background-image: url("src/cover bkg.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  display:flex;
+  height: 100vh;
+  justify-content: center;
+  align-content: center;
+}
+
+#workarea {
+  border: solid;
+  padding: 10px;
+  background-color: lightgray;
+  max-width: 700px;
+  max-height: 800px;
+  
+  }
+
+#header {
+  border: 2px solid;
+  display: flex;
+  padding: 5px;
+  align-content: center;
+  justify-content: center;
+  font-family: "Arial, Helvetica, sans-serif";
+  font-size: 32px;
+}
+
+#name {
+  padding: 10px;
+  margin: auto;
+  justify-content:center;
+  border-spacing: 10px;
+}
+
+#username {
+  display: flex;
+  font-family: 'Brush Script MT', cursive;
+  width: 60%;
+  margin: auto;
+  align-content: center;
+  justify-content: center;
+}
+
+#submit
+{
+  display:flex;
+  margin:auto;
+}
